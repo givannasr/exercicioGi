@@ -1,0 +1,54 @@
+/* Reset de estilos para o corpo da página */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o corpo da página */
+body {
+    background-color: #f0f0f0; /* Cor de fundo cinza claro */
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor do texto */
+    text-align: center;
+}
+
+/* Estilo para o cabeçalho da página */
+h1 {
+    background-color: #0074b4; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branco */
+    padding: 20px;
+}
+
+/* Estilo para os botões */
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: #0074b4; /* Cor de fundo azul para os botões */
+    color: #fff; /* Cor do texto branco para os botões */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Estilo para os botões ao passar o mouse sobre eles */
+button:hover {
+    background-color: #00587a; /* Cor de fundo azul mais escura no hover */
+}
+
+label{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 50%; /* Ocupa a largura total do contêiner pai */
+    padding: 5px; /* Adiciona espaço interno dentro do campo de entrada */
+    margin-bottom: 10px; /* Adiciona espaço abaixo de cada campo de entrada */
+}
